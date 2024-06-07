@@ -43,7 +43,4 @@ RewriteRule ^urun-([0-9a-zA-Z-_]+)-([0-9]+)$  urun-detay.php?sef=$1&urun_id=$2 [
 RewriteRule ^bize-ulasin$ iletisim.php [NC,L]
 RewriteRule ^sitemap.xml$ sitemap.php [NC,L]
 
-
-RewriteRule ^haber-([0-9a-zA-Z-_]+)-([0-9]+)$  haber-detay.php?sef=$1&icerik_id=$2 [L,QSA]
 RewriteRule ^sayfa-([0-9a-zA-Z-_]+)-([0-9]+)$  menu-detay.php?sef=$1&menu_id=$2 [L,QSA]
-RewriteRule ^video-([0-9a-zA-Z-_]+)-([0-9]+)$  video-detay.php?sef=$1&video_id=$2 [L,QSA]
