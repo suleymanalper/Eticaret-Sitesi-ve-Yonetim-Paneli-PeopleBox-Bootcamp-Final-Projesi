@@ -916,7 +916,7 @@ if (isset($_POST['urunduzenle'])) {
 
 
 
-// Yorum onayı burada manuel veya otomatik olabilir
+// Yorum onay kısmı
 if (isset($_POST['yorumkaydet'])) {
     $gelen_url = $_POST['gelen_url'];
     
