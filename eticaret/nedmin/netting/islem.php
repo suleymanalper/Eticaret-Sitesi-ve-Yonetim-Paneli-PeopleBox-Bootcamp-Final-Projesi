@@ -916,7 +916,7 @@ if (isset($_POST['urunduzenle'])) {
 
 
 
-
+// Yorum onayı burada manuel veya otomatik olabilir
 if (isset($_POST['yorumkaydet'])) {
     $gelen_url = $_POST['gelen_url'];
     
@@ -924,7 +924,7 @@ if (isset($_POST['yorumkaydet'])) {
         yorum_detay = :yorum_detay,
         kullanici_id = :kullanici_id,
         urun_id = :urun_id,
-        yorum_onay = 0  // Yorum onayı burada manuel veya otomatik olabilir
+        yorum_onay = 0  
     ");
     
     $insert = $ayarekle->execute(array(
